@@ -18,6 +18,7 @@ public class MovieScoreConverter {
 			score.setRating(rating);
 			scores.add(score);
 		}
+
 		rating.setScores(scores);
 		rating.setComment(vo.getComment());
 		rating.setUser(new User(userId.intValue()));

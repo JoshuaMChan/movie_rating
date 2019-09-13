@@ -13,8 +13,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
-//
-@RunWith(SpringJUnit4ClassRunner.class)
+
 @SpringBootTest
 public class MovieRatingApplicationTests {
 
